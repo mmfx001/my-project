@@ -44,6 +44,12 @@ a:hover{
     color: rgb(0, 197, 16);
     transition: 0.2s;
 }
+.input--1{
+    display: flex;
+}
+.input--2{
+    display: flex;
+}
 .top__p1{
 
     font-family: Montserrat;
@@ -67,7 +73,7 @@ margin-top: 60px;
 
 }
 input{
-    width: 380px;
+    width: 80%;
     height: 28px;
    border-bottom: 1px solid black;
    border-top: 0;

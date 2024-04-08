@@ -56,7 +56,7 @@ margin-top: 40px;
 font-size: 70px;
 font-weight: 700;
 line-height: 90px;
-text-align: left;
+text-align: center;
 
 }
 .h{
@@ -91,7 +91,7 @@ margin-top: 50px;
 }
 .img1{
     width: 100%;
-    
+    margin-top: -10px;
 }
 @media (max-width:420px){
     .main__p{
@@ -105,6 +105,9 @@ margin-top: 50px;
     margin-bottom: 32px;
     margin-top: 50px;
     
+    }
+    h1{
+        text-align: center;
     }
   
     .h{
