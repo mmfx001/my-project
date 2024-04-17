@@ -11,6 +11,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header class="website__header">
@@ -44,9 +45,9 @@
         <div class="main__top">
             <h1>What is Sustainable Transportation really about?</h1>
             <div class="top__img">
-                <img class="img2" src="./assets/Frame 33.png" alt="">
-                <img class="img2" src="./assets/Frame 32.png" alt="">
-                <img class="img2" src="./assets/Frame 31.png" alt="">
+                <img  data-aos="flip-right" class="img2" src="./assets/Frame 33.png" alt="">
+                <img  data-aos="flip-right" class="img2" src="./assets/Frame 32.png" alt="">
+                <img  data-aos="flip-right" class="img2" src="./assets/Frame 31.png" alt="">
             </div>
         </div>
 
@@ -65,6 +66,9 @@
 <img class="footer" src="../assets/Footer.png" alt="">
 
     </footer>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

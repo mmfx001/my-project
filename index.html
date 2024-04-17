@@ -15,6 +15,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   
 </head>
 
 <body>
@@ -39,6 +41,16 @@
 
                 </ul>
             </nav>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                  EN
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                  <li><button class="dropdown-item" type="button">EN</button></li>
+                  <li><button class="dropdown-item" type="button">RUS </button></li>
+                  <li><button class="dropdown-item" type="button">UZBEK</button></li>
+                </ul>
+              </div>
         </div>
 
 
@@ -68,37 +80,28 @@
         <div class="main__footer">
             <div class="footer__footer">
                 <div class="m__footer__left">
-                    <img class="footer__img1" src="./assets/image 2 (2).png" alt="">
-                    <img class="footer__img2" src="./assets/image 1 (5).png" alt="">
+                    <img data-aos="fade-down-left" class="footer__img1" src="./assets/image 2 (2).png" alt="">
+                    <img  data-aos="fade-down-right" class="footer__img2" src="./assets/image 1 (5).png" alt="">
                 </div>
-                <div class="m__footer__right">
+                <div data-aos="flip-left" class="m__footer__right">
                     <p class="footer__p1">Green Roads Ahead</p>
                     <p class="footer__p2">Driving a sustainable future through eco-friendly transportation solutions and
                         innovation."</p>
                 </div>
             </div>
 
-            <div class="footer__footer1">
-                <div class="main__footer--left">
-                    <p class="footer__p1">Stride into Sustainability</p>
-                    <p class="footer__p2"> Green Steps Toward Eco-Friendly Walking Solutions</p>
-                </div>
-                <div class="main__footer--right">
-                    <img class="footer__img4" src="./assets/image 3 (2).png" alt="">
-                    <img class="footer__img3" src="./assets/image 4 (1).png" alt="">
-                </div>
-
-            </div>
+      
         
             <div class="footer__footer2">
-                <div class="f__f__left">
-                    <img class="footer__img5" src="./assets/image 5 (1).png" alt="">
-
-                </div>
-                <div class="f__f__right">
+              
+                <div data-aos="flip-left" class="f__f__right">
                     <p class="footer__p1">Green transit</p>
                     <p class="footer__p2">Embark on eco-conscious journeys with our sustainable bus solutions.
                         Redefining transportation.</p>
+                </div>
+                <div class="f__f__left">
+                    <img data-aos="fade-up-right"  class="footer__img5" src="./assets/image 5 (1).png" alt="">
+
                 </div>
             </div>
 
@@ -111,10 +114,12 @@
         <img class="footer" src="./assets/Footer.png" alt="">
 
     </footer>
+ 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
 </html>
